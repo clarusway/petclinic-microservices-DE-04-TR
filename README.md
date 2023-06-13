@@ -1053,8 +1053,9 @@ git checkout feature/msp-14
       Add build step: Execute Shell
       Command:
 ```
+
 ```bash
-PATH="$PATH:/usr/local/bin"
+PATH="$PATH:/usr/bin"
 APP_REPO_NAME="clarusway-repo/petclinic-app-dev"
 AWS_REGION="us-east-1"
 
