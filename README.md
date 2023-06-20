@@ -2629,7 +2629,7 @@ git checkout feature/msp-20
 ```
 ```bash
 PATH="$PATH:/usr/local/bin"
-APP_REPO_NAME="clarusway-repo/petclinic-app-qa"
+APP_REPO_NAME="clarusway-repo/petclinic-app-qa-de-tr"
 AWS_REGION="us-east-1"
 
 aws ecr describe-repositories --region ${AWS_REGION} --repository-name ${APP_REPO_NAME} || \
